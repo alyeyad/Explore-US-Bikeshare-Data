@@ -33,11 +33,11 @@ def get_filters():
     filter_choice=input("How would you like to filter data? (Month, Day, All, None) ").lower()
     #validating filter preference input
     while filter_choice not in ['month', 'day', 'all', 'none']:
-        filter_choice=input("Invalid Filtering Choice! Please Enter (Month, Day, All , None)").lower()
+        filter_choice=input("Invalid Filtering Choice! Please Enter (Month, Day, All , None) ").lower()
 
     #filtering by month (case month or all)
     if filter_choice=='month' or filter_choice=='all':
-        month = input('Which month would you like to filter by? (January, February, March, April, May, June, All)').lower()
+        month = input('Which month would you like to filter by? (January, February, March, April, May, June, All) ').lower()
         #validating month input
         while month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             month = input("Invalid Month, please re-enter (January, February, March, April, May, June, All): ").lower()
@@ -107,7 +107,7 @@ def time_stats(df):
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nCalculating The Most Popular Stations and Trips...\n')
     start_time = time.time()
 
     #most common starting station
@@ -211,6 +211,8 @@ def raw_data(df):
     print('-' * 40)
 
 def main():
+    print("Explore US Bikeshare Data Project")
+    print("Designed by Aly Eyad\n")
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
