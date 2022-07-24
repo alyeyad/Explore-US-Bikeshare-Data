@@ -6,7 +6,7 @@ In this project, you will make use of Python to explore data related to bike sha
 ![Bikeshare](bikes.jpg)
 
 ## Tools Used:
-<hr>
+
 To complete this project, the following software requirements apply:
 
 - You should have Python 3, NumPy, and pandas installed using Anaconda
@@ -15,7 +15,6 @@ To complete this project, the following software requirements apply:
 
 
 ## Project Description:
-<hr>
 
 A python program that used datasets provided by [Motivate](https://www.motivateco.com/), a bike share system provider for many major cities in the United States, to uncover bike share usage patterns across three large cities: **Chicago**, **New York City**, and **Washington, DC**.
 
@@ -31,7 +30,6 @@ A python program that used datasets provided by [Motivate](https://www.motivatec
 4. Displays raw data to the User.
 
 ## Screenshots
-<hr>
 
 ![Output1](ss1.jpg)
 ![Output2](ss2.jpg)
